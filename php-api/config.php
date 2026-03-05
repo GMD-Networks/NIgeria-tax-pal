@@ -39,9 +39,9 @@ function envOrDefault(string $key, $default = '') {
 
 // Database
 define('DB_HOST', envOrDefault('DB_HOST', 'localhost'));
-define('DB_NAME', envOrDefault('DB_NAME', 'taxpal_db'));          // Create this in cPanel MySQL Databases
-define('DB_USER', envOrDefault('DB_USER', 'taxpal_user'));        // Create this in cPanel MySQL Databases
-define('DB_PASS', envOrDefault('DB_PASS', 'YOUR_DB_PASSWORD'));   // Set a strong password
+define('DB_NAME', envOrDefault('DB_NAME', 'gmdnetwo_taxpal'));          // Create this in cPanel MySQL Databases
+define('DB_USER', envOrDefault('DB_USER', 'gmdnetwo_taxpal'));        // Create this in cPanel MySQL Databases
+define('DB_PASS', envOrDefault('DB_PASS', 'Hellxavage@98'));   // Set a strong password
 
 // JWT Secret - CHANGE THIS to a random 64+ character string
 define('JWT_SECRET', envOrDefault('JWT_SECRET', 'SET_A_64PLUS_CHAR_SECRET_IN_ENV_BEFORE_DEPLOYMENT'));
