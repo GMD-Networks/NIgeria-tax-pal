@@ -1,0 +1,114 @@
+{
+  "app": {
+    "name": "Onye Enyemaka Ụtụ Naịjirịa",
+    "tagline": "Onye ndu gị n'ụtụ Naịjirịa"
+  },
+  "nav": {
+    "home": "Ụlọ",
+    "learn": "Mụta",
+    "calculator": "Ngụkọta",
+    "chat": "Nkata"
+  },
+  "home": {
+    "greeting": "Nnọọ!",
+    "subtitle": "Kedu ihe ị chọrọ ime taa?",
+    "tipOfDay": "Ndụmọdụ Ụtụ nke Ụbọchị",
+    "disclaimer": "Ngwa a na-enye ozi ụtụ izugbe. Maka ndụmọdụ pụrụ iche, jụọ onye ọkachamara ụtụ.",
+    "features": {
+      "learn": {
+        "title": "Mụta Iwu Ụtụ",
+        "description": "Ghọta iwu ụtụ Naịjirịa"
+      },
+      "calculator": {
+        "title": "Ngụkọta Ụtụ",
+        "description": "Gbakọọ PAYE na WHT gị"
+      },
+      "chat": {
+        "title": "Kwurịta na Ọkachamara",
+        "description": "Nweta enyemaka site n'aka ndị ọkachamara"
+      },
+      "updates": {
+        "title": "Mmelite Ụtụ",
+        "description": "Akụkọ na mgbanwe ọhụrụ"
+      }
+    }
+  },
+  "learn": {
+    "title": "Ozi Ụtụ",
+    "search": "Chọọ isiokwu...",
+    "results": "nsonaazụ a chọtara",
+    "article": "akwụkwọ",
+    "articles": "akwụkwọ ndị",
+    "noContent": "Enweghị ọdịnaya ugbu a",
+    "categories": {
+      "paye": "Ụtụ Ego Onwe (PAYE)",
+      "wht": "Ụtụ Ndekọ",
+      "mistakes": "Mperi A Na-eme",
+      "updates": "Mmelite Ọhụrụ",
+      "cgt": "Ụtụ Uru Capital (CGT)",
+      "cit": "Ụtụ Ego Ụlọ Ọrụ (CIT)",
+      "vat": "Ụtụ Mwube Ọnụahịa (VAT)",
+      "stamp": "Ụtụ Akara",
+      "levy": "Ụtụ Mmepe"
+    }
+  },
+  "calculator": {
+    "title": "Ngụkọta Ụtụ",
+    "paye": {
+      "title": "Ngụkọta PAYE",
+      "description": "Gbakọọ ụtụ ego onwe gị",
+      "salary": "Ụgwọ Ọnwa (₦)",
+      "annual": "Ụgwọ Afọ (₦)",
+      "calculate": "Gbakọọ Ụtụ",
+      "result": {
+        "gross": "Ego Niile",
+        "taxable": "Ego A Ga-atụ Ụtụ",
+        "tax": "Ọnụ Ego Ụtụ",
+        "net": "Ego Fọdụrụ"
+      }
+    },
+    "wht": {
+      "title": "Ngụkọta WHT",
+      "description": "Gbakọọ ụtụ ndekọ",
+      "amount": "Ọnụ Ego Azụmahịa (₦)",
+      "type": "Ụdị Azụmahịa",
+      "calculate": "Gbakọọ WHT",
+      "result": {
+        "amount": "Ọnụ Ego Azụmahịa",
+        "rate": "Ọnụego WHT",
+        "wht": "Ọnụ Ego WHT",
+        "net": "Ego A Ga-akwụ"
+      }
+    }
+  },
+  "chat": {
+    "title": "Nkwado Ụtụ",
+    "aiAssistant": "Onye Enyemaka AI",
+    "humanConsultant": "Kwurịta na Mmadụ",
+    "placeholder": "Dee ajụjụ ụtụ gị...",
+    "send": "Zipu",
+    "suggestions": {
+      "paye": "Kedu ka a si agbakọ PAYE?",
+      "wht": "Gịnị bụ ụtụ ndekọ?",
+      "deadline": "Kedu oge ịkwụ ụtụ kacha nso?",
+      "exemptions": "Kedu nkwụsị ụtụ dị?"
+    }
+  },
+  "settings": {
+    "title": "Ntọala",
+    "language": "Asụsụ",
+    "theme": "Ọnọdụ",
+    "notifications": "Ọkwa"
+  },
+  "common": {
+    "loading": "Ọ na-ebu...",
+    "error": "Ihe adịghị mma",
+    "retry": "Nwalee ọzọ",
+    "save": "Chekwa",
+    "cancel": "Kagbuo",
+    "back": "Laghachi",
+    "next": "Ọzọ",
+    "share": "Kekọrịta",
+    "bookmark": "Deve aha"
+  }
+}

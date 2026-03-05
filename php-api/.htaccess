@@ -1,0 +1,37 @@
+RewriteEngine On
+
+# Route all API requests through index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Security headers
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "DENY"
+
+# Deny access to sensitive files
+<FilesMatch "\.(php|sql|md)$">
+    <Files "index.php">
+        Allow from all
+    </Files>
+</FilesMatch>
+
+<Files "config.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "database.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "auth.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "schema.sql">
+    Order Allow,Deny
+    Deny from all
+</Files>

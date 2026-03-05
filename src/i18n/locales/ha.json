@@ -1,0 +1,114 @@
+{
+  "app": {
+    "name": "Abokin Haraji na Najeriya",
+    "tagline": "Jagoran ku zuwa harajin Najeriya"
+  },
+  "nav": {
+    "home": "Gida",
+    "learn": "Koyi",
+    "calculator": "Lissafi",
+    "chat": "Hira"
+  },
+  "home": {
+    "greeting": "Barka da zuwa!",
+    "subtitle": "Me kuke so ku yi yau?",
+    "tipOfDay": "Shawara kan Haraji na Yau",
+    "disclaimer": "Wannan app yana ba da bayanai na gama gari kawai. Don shawara na musamman, tuntuɓi kwararren haraji.",
+    "features": {
+      "learn": {
+        "title": "Koyi Game da Haraji",
+        "description": "Fahimci dokokin haraji na Najeriya"
+      },
+      "calculator": {
+        "title": "Na'urar Lissafi",
+        "description": "Ƙidaya PAYE da WHT ɗin ku"
+      },
+      "chat": {
+        "title": "Yi Magana da Gwani",
+        "description": "Sami taimako daga masu ba da shawara"
+      },
+      "updates": {
+        "title": "Sabbin Labarai",
+        "description": "Sabbin labarai da canje-canje"
+      }
+    }
+  },
+  "learn": {
+    "title": "Bayanan Haraji",
+    "search": "Nemi batutuwa...",
+    "results": "sakamakon da aka samu",
+    "article": "labari",
+    "articles": "labarai",
+    "noContent": "Babu abun ciki yanzu",
+    "categories": {
+      "paye": "Harajin Kuɗin Shiga (PAYE)",
+      "wht": "Harajin Tsayawa",
+      "mistakes": "Kura-kurai na Yau da Kullum",
+      "updates": "Sabbin Abubuwa",
+      "cgt": "Harajin Ribar Jari (CGT)",
+      "cit": "Harajin Kudin Kamfanoni (CIT)",
+      "vat": "Harajin Ƙarin Daraja (VAT)",
+      "stamp": "Harajin Tambari",
+      "levy": "Harajin Cigaban Ƙasa"
+    }
+  },
+  "calculator": {
+    "title": "Na'urar Lissafin Haraji",
+    "paye": {
+      "title": "Lissafin PAYE",
+      "description": "Ƙidaya harajin kuɗin shiga ku",
+      "salary": "Albashin Wata (₦)",
+      "annual": "Albashin Shekara (₦)",
+      "calculate": "Ƙidaya Haraji",
+      "result": {
+        "gross": "Jimlar Kuɗi",
+        "taxable": "Kuɗin Da Za a Biya Haraji",
+        "tax": "Adadin Haraji",
+        "net": "Kuɗin Da Ya Rage"
+      }
+    },
+    "wht": {
+      "title": "Lissafin WHT",
+      "description": "Ƙidaya harajin tsayawa",
+      "amount": "Adadin Ciniki (₦)",
+      "type": "Irin Ciniki",
+      "calculate": "Ƙidaya WHT",
+      "result": {
+        "amount": "Adadin Ciniki",
+        "rate": "Yawan WHT",
+        "wht": "Adadin WHT",
+        "net": "Kuɗin Da Za a Biya"
+      }
+    }
+  },
+  "chat": {
+    "title": "Tallafin Haraji",
+    "aiAssistant": "Mataimakin AI",
+    "humanConsultant": "Yi Magana da Mutum",
+    "placeholder": "Rubuta tambayar haraji...",
+    "send": "Aika",
+    "suggestions": {
+      "paye": "Ta yaya ake ƙidaya PAYE?",
+      "wht": "Mene ne harajin tsayawa?",
+      "deadline": "Yaushe ne ranar ƙarshe ta haraji?",
+      "exemptions": "Wace irin keɓance ake samu?"
+    }
+  },
+  "settings": {
+    "title": "Saituna",
+    "language": "Harshe",
+    "theme": "Jigo",
+    "notifications": "Sanarwa"
+  },
+  "common": {
+    "loading": "Ana lodi...",
+    "error": "Wani abu ya yi kuskure",
+    "retry": "Sake gwadawa",
+    "save": "Ajiye",
+    "cancel": "Soke",
+    "back": "Koma",
+    "next": "Gaba",
+    "share": "Raba",
+    "bookmark": "Alamta"
+  }
+}

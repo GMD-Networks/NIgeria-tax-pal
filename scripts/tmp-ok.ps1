@@ -1,0 +1,1 @@
+echo OK_SCRIPT

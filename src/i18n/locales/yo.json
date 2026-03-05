@@ -1,0 +1,120 @@
+{
+  "app": {
+    "name": "Alábàáṣiṣẹ́pọ̀ Owó-Orí Nigeria",
+    "tagline": "Àmọ̀nà rẹ sí owó-orí ilẹ̀ Nàìjíríà"
+  },
+  "nav": {
+    "home": "Ilé",
+    "learn": "Kọ́",
+    "calculator": "Ìṣirò",
+    "chat": "Ọ̀rọ̀"
+  },
+  "home": {
+    "greeting": "Ẹ káàbọ̀!",
+    "subtitle": "Kí ni o fẹ́ ṣe lónìí?",
+    "tipOfDay": "Ìmọ̀ràn Owó-orí Ọjọ́ Yìí",
+    "disclaimer": "Àpẹẹrẹ owó-orí àkọ́kọ́ ni àwọn ìwífún yìí. Fún ìmọ̀ràn pàtàkì, ba onímọ̀ owó-orí sọ̀rọ̀.",
+    "features": {
+      "learn": {
+        "title": "Kọ́ Nípa Owó-orí",
+        "description": "Mọ àwọn òfin owó-orí Nigeria"
+      },
+      "calculator": {
+        "title": "Ìṣirò Owó-orí",
+        "description": "Ṣe ìṣirò PAYE àti WHT rẹ"
+      },
+      "chat": {
+        "title": "Bá Onímọ̀ Sọ̀rọ̀",
+        "description": "Gba ìrànlọ́wọ́ láti ọ̀dọ̀ àwọn onímọ̀ràn"
+      },
+      "updates": {
+        "title": "Ìròyìn Owó-orí",
+        "description": "Ìròyìn àti àwọn àyípadà tuntun"
+      }
+    }
+  },
+  "nav": {
+    "home": "Ilé",
+    "learn": "Kọ́",
+    "calculator": "Ìṣirò",
+    "chat": "Ọ̀rọ̀"
+  },
+  "learn": {
+    "title": "Ìwífún Owó-orí",
+    "search": "Wá àwọn àkọlé...",
+    "results": "àbájáde tí a rí",
+    "article": "àpilẹ̀kọ",
+    "articles": "àwọn àpilẹ̀kọ",
+    "noContent": "Kò sí àkóónú lọ́wọ́lọ́wọ́",
+    "categories": {
+      "paye": "Owó-orí Owó-ìṣẹ́ (PAYE)",
+      "wht": "Owó-orí Títọ́jú",
+      "mistakes": "Àṣìṣe Tí Ó Wọ́pọ̀",
+      "updates": "Àwọn Ìmúdójúìwọ̀n",
+      "cgt": "Owó-orí Èrè Ọrọ̀-ajé (CGT)",
+      "cit": "Owó-orí Ilé-iṣẹ́ (CIT)",
+      "vat": "Owó-orí Ìfikún Iye (VAT)",
+      "stamp": "Owó Àsè Ìwé",
+      "levy": "Owó Ìdàgbàsókè"
+    }
+  },
+  "calculator": {
+    "title": "Ìṣirò Owó-orí",
+    "paye": {
+      "title": "Ìṣirò PAYE",
+      "description": "Ṣe ìṣirò owó-orí owó-ìṣẹ́ rẹ",
+      "salary": "Owó-ìṣẹ́ Oṣù (₦)",
+      "annual": "Owó-ìṣẹ́ Ọdún (₦)",
+      "calculate": "Ṣe Ìṣirò",
+      "result": {
+        "gross": "Gbogbo Owó-orí",
+        "taxable": "Owó Tí A Lè Sanwó-orí Lórí",
+        "tax": "Iye Owó-orí",
+        "net": "Owó Tó Kù"
+      }
+    },
+    "wht": {
+      "title": "Ìṣirò WHT",
+      "description": "Ṣe ìṣirò owó-orí títọ́jú",
+      "amount": "Iye Ìdúnàádúrà (₦)",
+      "type": "Irú Ìdúnàádúrà",
+      "calculate": "Ṣe Ìṣirò WHT",
+      "result": {
+        "amount": "Iye Ìdúnàádúrà",
+        "rate": "Ìwọ̀n WHT",
+        "wht": "Iye WHT",
+        "net": "Owó Láti Sanwó"
+      }
+    }
+  },
+  "chat": {
+    "title": "Àtìlẹ́yìn Owó-orí",
+    "aiAssistant": "Olùrànlọ́wọ́ AI",
+    "humanConsultant": "Bá Ènìyàn Sọ̀rọ̀",
+    "placeholder": "Tẹ ìbéèrè owó-orí rẹ...",
+    "send": "Firánṣẹ́",
+    "suggestions": {
+      "paye": "Báwo ni a ṣe ń ṣirò PAYE?",
+      "wht": "Kí ni owó-orí títọ́jú?",
+      "deadline": "Ìgbà wo ni ọjọ́ ìkẹyìn fún fífi owó-orí sílẹ̀?",
+      "exemptions": "Àwọn ìyọ̀kúrò owó-orí wo ló wà?"
+    }
+  },
+  "settings": {
+    "title": "Àwọn Ètò",
+    "language": "Èdè",
+    "theme": "Àwọ̀",
+    "notifications": "Àwọn Ìfitónilétí"
+  },
+  "common": {
+    "loading": "Ń gbéwọlé...",
+    "error": "Nǹkan kan kò ṣiṣẹ́ dáadáa",
+    "retry": "Gbìyànjú lẹ́ẹ̀kan sí i",
+    "save": "Pamọ́",
+    "cancel": "Fagilé",
+    "back": "Padà sẹ́yìn",
+    "next": "Tókàn",
+    "share": "Pín",
+    "bookmark": "Samì sí ibi ìfipamọ́"
+  }
+}

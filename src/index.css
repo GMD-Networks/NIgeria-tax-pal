@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nigeria Tax Companion Design System
+   Blue & Teal theme - Professional, Trustworthy, Modern
+*/
+
+@layer base {
+  :root {
+    /* Primary - Deep Blue (Trust, Professional) */
+    --primary: 161 93% 30%;
+    --primary-foreground: 151 80% 95%;
+
+    /* Secondary - Teal (Growth, Financial) */
+    --secondary: 0 0% 32%;
+    --secondary-foreground: 0 0% 98%;
+
+    /* Background & Surface */
+    --background: 0 0% 96%;
+    --foreground: 0 0% 9%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 9%;
+
+    --popover: 0 0% 89%;
+    --popover-foreground: 0 0% 9%;
+
+    /* Muted */
+    --muted: 0 0% 63%;
+    --muted-foreground: 0 0% 9%;
+
+    /* Accent - Soft Teal */
+    --accent: 166 76% 96%;
+    --accent-foreground: 173 80% 40%;
+
+    /* Destructive */
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 85% 97%;
+
+    /* Success */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Border & Input */
+    --border: 0 0% 83%;
+    --input: 0 0% 83%;
+    --ring: 161 93% 30%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217, 91%, 45%) 0%, hsl(174, 72%, 40%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(210, 20%, 98%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-glow: 0 0 20px hsl(217 91% 45% / 0.2);
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 0 0% 9%;
+    --sidebar-primary: 161 93% 30%;
+    --sidebar-primary-foreground: 151 80% 95%;
+    --sidebar-accent: 0 0% 32%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 83%;
+    --sidebar-ring: 161 93% 30%;
+    --chart-1: 158 64% 51%;
+    --chart-2: 141 69% 58%;
+    --chart-3: 172 66% 50%;
+    --chart-4: 82 77% 55%;
+    --chart-5: 0 0% 45%;
+    --sidebar: 0 0% 98%;
+    --font-sans: 'Work Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    --font-serif: 'Lora', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    --font-mono: 'Inconsolata', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --tracking-normal: 0em;
+    --spacing: 0.25rem;
+  }
+
+  .dark {
+    /* Primary - Bright Blue */
+    --primary: 158 64% 51%;
+    --primary-foreground: 165 91% 9%;
+
+    /* Secondary - Bright Teal */
+    --secondary: 0 0% 45%;
+    --secondary-foreground: 0 0% 98%;
+
+    /* Background & Surface */
+    --background: 0 0% 9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 14%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 25%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Muted */
+    --muted: 0 0% 45%;
+    --muted-foreground: 0 0% 98%;
+
+    /* Accent */
+    --accent: 178 84% 10%;
+    --accent-foreground: 172 66% 50%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 85% 97%;
+
+    /* Success */
+    --success: 142 71% 40%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 0%;
+
+    /* Border & Input */
+    --border: 0 0% 32%;
+    --input: 0 0% 32%;
+    --ring: 158 64% 51%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217, 91%, 50%) 0%, hsl(174, 72%, 45%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(217, 33%, 14%) 0%, hsl(217, 33%, 10%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
+    --shadow-glow: 0 0 20px hsl(217 91% 60% / 0.3);
+
+    /* Sidebar */
+    --sidebar-background: 217 33% 12%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 158 64% 51%;
+    --sidebar-primary-foreground: 165 91% 9%;
+    --sidebar-accent: 172 66% 50%;
+    --sidebar-accent-foreground: 178 84% 10%;
+    --sidebar-border: 0 0% 32%;
+    --sidebar-ring: 158 64% 51%;
+    --chart-1: 156 71% 66%;
+    --chart-2: 141 76% 73%;
+    --chart-3: 170 76% 64%;
+    --chart-4: 81 84% 67%;
+    --chart-5: 0 0% 45%;
+    --sidebar: 0 0% 14%;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  /* Safe area padding for mobile */
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  .safe-top {
+    padding-top: env(safe-area-inset-top, 0);
+  }
+}
+
+/* Article Content Typography - Professional Reading Experience */
+@layer components {
+  /* Drop cap styling - ONLY for first paragraph of article */
+  .article-first-paragraph::first-letter {
+    font-size: 3.5rem;
+    font-weight: 800;
+    float: left;
+    line-height: 0.85;
+    margin-right: 0.6rem;
+    margin-top: 0.2rem;
+    padding-right: 0.1rem;
+    color: hsl(var(--primary));
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  /* Fade-in animation for article paragraphs */
+  @keyframes articleFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: articleFadeIn 0.4s ease-out forwards;
+  }
+}

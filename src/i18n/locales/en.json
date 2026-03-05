@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "Nigeria Tax Companion",
+    "tagline": "Your trusted guide to Nigerian taxes"
+  },
+  "nav": {
+    "home": "Home",
+    "learn": "Learn",
+    "tax": "Tax Tools",
+    "calculator": "Calculator",
+    "invoice": "Invoice",
+    "chat": "Chat"
+  },
+  "home": {
+    "greeting": "Welcome!",
+    "subtitle": "What would you like to do today?",
+    "tipOfDay": "Tax Tip of the Day",
+    "disclaimer": "This app provides general tax information only. For specific advice, consult a licensed tax professional.",
+    "features": {
+      "learn": {
+        "title": "Learn Tax Laws",
+        "description": "Understand Nigerian tax regulations"
+      },
+      "calculator": {
+        "title": "Tax Calculator",
+        "description": "Calculate your PAYE and WHT"
+      },
+      "chat": {
+        "title": "Talk to Expert",
+        "description": "Get help from tax consultants"
+      },
+      "updates": {
+        "title": "Tax Updates",
+        "description": "Latest tax news and changes"
+      }
+    }
+  },
+  "learn": {
+    "title": "Tax Information",
+    "search": "Search topics...",
+    "results": "results found",
+    "article": "article",
+    "articles": "articles",
+    "noContent": "No content available yet",
+    "categories": {
+      "paye": "Personal Income Tax (PAYE)",
+      "wht": "Withholding Tax",
+      "mistakes": "Common Mistakes",
+      "updates": "Latest Updates",
+      "cgt": "Capital Gains Tax (CGT)",
+      "cit": "Companies Income Tax (CIT)",
+      "vat": "Value Added Tax (VAT)",
+      "stamp": "Stamp Duties",
+      "levy": "Development Levy"
+    }
+  },
+  "calculator": {
+    "title": "Tax Calculator",
+    "paye": {
+      "title": "PAYE Calculator",
+      "description": "Calculate your personal income tax",
+      "salary": "Monthly Salary (₦)",
+      "annual": "Annual Salary (₦)",
+      "calculate": "Calculate Tax",
+      "result": {
+        "gross": "Gross Income",
+        "taxable": "Taxable Income",
+        "tax": "Tax Amount",
+        "net": "Net Income"
+      }
+    },
+    "wht": {
+      "title": "WHT Calculator",
+      "description": "Calculate withholding tax",
+      "amount": "Transaction Amount (₦)",
+      "type": "Transaction Type",
+      "calculate": "Calculate WHT",
+      "result": {
+        "amount": "Transaction Amount",
+        "rate": "WHT Rate",
+        "wht": "WHT Amount",
+        "net": "Net Payable"
+      }
+    }
+  },
+  "chat": {
+    "title": "Tax Support",
+    "aiAssistant": "AI Tax Assistant",
+    "humanConsultant": "Talk to Human",
+    "placeholder": "Type your tax question...",
+    "send": "Send",
+    "suggestions": {
+      "paye": "How is PAYE calculated?",
+      "wht": "What is withholding tax?",
+      "deadline": "When is the tax filing deadline?",
+      "exemptions": "What tax exemptions are available?"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "share": "Share",
+    "bookmark": "Bookmark"
+  }
+}
