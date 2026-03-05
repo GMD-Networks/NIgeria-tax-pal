@@ -1,7 +1,7 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/gmdnetwo/taxpal/
+    - export DEPLOYPATH=/home/gmdnetwo/public_html/
     - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -R $CRUDE_BUILD_DIR/dist/* $DEPLOYPATH
-    - /bin/cp -R $CRUDE_BUILD_DIR/php-api/* $DEPLOYPATH/php-api
-    - cd $DEPLOYPATH/php-api && npm install --production
+    - /bin/mkdir -p $DEPLOYPATH/php-api
+    - /bin/cp -R $CRUDE_BUILD_DIR/dist/. $DEPLOYPATH
+    - /bin/cp -R $CRUDE_BUILD_DIR/php-api/. $DEPLOYPATH/php-api
