@@ -166,6 +166,26 @@ npm run build
 
 3. Upload `dist/*` into `/public_html/taxpal/` (same folder that contains `.htaccess`).
 
+## 7.1) GitHub vs cPanel (What goes where)
+
+Keep in **GitHub**:
+- Frontend source (`src/`, configs, `package.json`)
+- PHP API source (`php-api/`)
+- Deployment file (`.cpanel.yml`)
+- Built frontend (`dist/`) if your cPanel Git deployment copies `dist` directly
+
+Keep in **cPanel only** (do not commit secrets):
+- Live DB credentials and secrets (`DB_*`, `JWT_SECRET`, `FLW_*`, `AI_*`, `SMTP_*`)
+- Any production-only API env override file (for example `/public_html/.../api/.env.local`)
+- Runtime/generated files and logs
+
+cPanel Git deployment mapping used by this repo:
+- `dist/` ➜ your document root (e.g. `/public_html` or `/public_html/taxpal`)
+- `php-api/` ➜ `<document-root>/api`
+
+If your app URL is `https://taxpal.gmd-networks.com.ng`, then `/api/health` must resolve to:
+- `https://taxpal.gmd-networks.com.ng/api/health`
+
 ## 8) Apache Rewrites (.htaccess)
 
 Create `/public_html/taxpal/.htaccess`:
@@ -273,6 +293,10 @@ define('AI_MODEL', 'deepseek-chat');
 
 - **401/403 on admin endpoints**: confirm the user has an `admin` row in `user_roles`.
 - **404 on refresh (SPA routes)**: `.htaccess` SPA fallback isn’t being applied.
+- **404 on `/api/health`**:
+  - Ensure `.cpanel.yml` copies `php-api` to `<document-root>/api` (not `<document-root>/php-api`).
+  - Ensure `DEPLOYPATH` points to the actual subdomain document root.
+  - Redeploy from cPanel Git Version Control, then re-test `/api/health`.
 - **500 errors**: check cPanel → Errors, and confirm PHP extensions `pdo_mysql`, `curl`, `openssl`.
 - **Payments/AI/SMTP TLS errors**: configure CA bundle (`curl.cainfo` / `openssl.cafile`) as in section 11.
 - **Database connection errors**: verify `DB_NAME`, `DB_USER`, `DB_PASS`, and that the user is assigned to the DB with privileges.
