@@ -5,7 +5,7 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$User,
 
-    [string]$TargetPath = "/home/$User/taxpal",
+    [string]$TargetPath = "/home/$User/taxpal.reddonisha.com",
 
     [string]$Port = "22",
 
