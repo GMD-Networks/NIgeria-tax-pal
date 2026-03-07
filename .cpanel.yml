@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=${DEPLOYPATH:-/home/gmdnetwo/taxpal}
+    - export DEPLOYPATH=${DEPLOYPATH:-/home/reddrvkv/taxpal}
     - /bin/mkdir -p "$DEPLOYPATH"
     - /bin/mkdir -p "$DEPLOYPATH/api"
     - test -d "dist" || (echo "dist folder not found in repository. Run npm run build and commit dist before deployment." && exit 1)
