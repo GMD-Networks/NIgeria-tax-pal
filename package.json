@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "deploy": "npm run build && git add . && git commit -m \"Deploy update\" && git push",
+    "deploy:ssh": "powershell -ExecutionPolicy Bypass -File ./scripts/deploy-ssh.ps1",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",

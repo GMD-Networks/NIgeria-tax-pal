@@ -11,7 +11,7 @@ import type {
   PlanTier,
 } from '@/types/subscription';
 
-const API_BASE_URL = import.meta.env.VITE_CPANEL_API_URL || 'https://taxpal.gmd-networks.com.ng/api';
+const API_BASE_URL = import.meta.env.VITE_CPANEL_API_URL || 'https://taxpal.reddonisha.com/api';
 
 function getStoredToken(): string | null {
   return localStorage.getItem('auth_token');

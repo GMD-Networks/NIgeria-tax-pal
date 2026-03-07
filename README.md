@@ -54,7 +54,7 @@ npm ci
 2. Create `.env` (or use `.env.example`):
 
 ```env
-VITE_CPANEL_API_URL=https://taxpal.gmd-networks.com.ng/api
+VITE_CPANEL_API_URL=https://taxpal.reddonisha.com/api
 ```
 
 3. Run dev server:

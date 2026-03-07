@@ -1,7 +1,7 @@
 <?php
 /**
  * TaxPal API - Main Entry Point (Complete cPanel Backend)
- * Deploy to: taxpal.gmd-networks.com.ng/api/
+ * Deploy to: taxpal.reddonisha.com/api/
  */
 
 header('Access-Control-Allow-Origin: *');

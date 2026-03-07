@@ -18,7 +18,7 @@ type AuthSession = {
   };
 };
 
-const API_BASE_URL = import.meta.env.VITE_CPANEL_API_URL || 'https://taxpal.gmd-networks.com.ng/api';
+const API_BASE_URL = import.meta.env.VITE_CPANEL_API_URL || 'https://taxpal.reddonisha.com/api';
 const AUTH_TOKEN_KEY = 'auth_token';
 const AUTH_USER_KEY = 'auth_user';
 

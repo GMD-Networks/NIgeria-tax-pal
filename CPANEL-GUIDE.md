@@ -183,8 +183,24 @@ cPanel Git deployment mapping used by this repo:
 - `dist/` ➜ your document root (e.g. `/public_html` or `/public_html/taxpal`)
 - `php-api/` ➜ `<document-root>/api`
 
-If your app URL is `https://taxpal.gmd-networks.com.ng`, then `/api/health` must resolve to:
-- `https://taxpal.gmd-networks.com.ng/api/health`
+If your app URL is `https://taxpal.reddonisha.com`, then `/api/health` must resolve to:
+- `https://taxpal.reddonisha.com/api/health`
+
+## 7.2) SSH Deploy (only `dist` and `php-api`)
+
+If your cPanel host provides SSH access, deploy only build artifacts and API source:
+
+1. Build locally:
+
+```bash
+npm run build
+```
+
+2. Upload only these folders to your subdomain document root:
+- `dist/*` ➜ `/home/<cpanel-user>/taxpal/`
+- `php-api/*` ➜ `/home/<cpanel-user>/taxpal/api/`
+
+This repo includes `scripts/deploy-ssh.ps1` to automate this flow from Windows PowerShell.
 
 ## 8) Apache Rewrites (.htaccess)
 

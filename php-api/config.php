@@ -56,8 +56,8 @@ define('FLW_PUBLIC_KEY', envOrDefault('FLW_PUBLIC_KEY', ''));
 define('FLW_WEBHOOK_HASH', envOrDefault('FLW_WEBHOOK_HASH', ''));
 
 // App
-define('APP_URL', envOrDefault('APP_URL', 'https://taxpal.gmd-networks.com.ng'));
-define('API_URL', envOrDefault('API_URL', 'https://taxpal.gmd-networks.com.ng/api'));
+define('APP_URL', envOrDefault('APP_URL', 'https://taxpal.reddonisha.com'));
+define('API_URL', envOrDefault('API_URL', 'https://taxpal.reddonisha.com/api'));
 
 // AI provider
 define('AI_API_URL', envOrDefault('AI_API_URL', 'https://api.openai.com/v1/chat/completions'));
@@ -90,7 +90,7 @@ define('SMTP_PORT', (int)envOrDefault('SMTP_PORT', 587));
 define('SMTP_USERNAME', envOrDefault('SMTP_USERNAME', ''));
 define('SMTP_PASSWORD', envOrDefault('SMTP_PASSWORD', ''));
 define('SMTP_ENCRYPTION', envOrDefault('SMTP_ENCRYPTION', 'tls'));
-define('SMTP_FROM_EMAIL', envOrDefault('SMTP_FROM_EMAIL', 'noreply@taxpal.gmd-networks.com.ng'));
+define('SMTP_FROM_EMAIL', envOrDefault('SMTP_FROM_EMAIL', 'noreply@taxpal.reddonisha.com'));
 define('SMTP_FROM_NAME', envOrDefault('SMTP_FROM_NAME', 'TaxPal'));
 
 // Free tier limits (per month)
