@@ -3,6 +3,7 @@ deployment:
     - export DEPLOYPATH=${DEPLOYPATH:-/home/gmdnetwo/taxpal}
     - /bin/mkdir -p "$DEPLOYPATH"
     - /bin/mkdir -p "$DEPLOYPATH/api"
-    - test -d "$CRUDE_BUILD_DIR/dist" || (echo "dist folder not found. Run npm run build and commit dist before deployment." && exit 1)
-    - /bin/cp -R "$CRUDE_BUILD_DIR/dist/." "$DEPLOYPATH"
-    - /bin/cp -R "$CRUDE_BUILD_DIR/php-api/." "$DEPLOYPATH/api"
+    - test -d "dist" || (echo "dist folder not found in repository. Run npm run build and commit dist before deployment." && exit 1)
+    - test -d "php-api" || (echo "php-api folder not found in repository." && exit 1)
+    - /bin/cp -R dist/. "$DEPLOYPATH"
+    - /bin/cp -R php-api/. "$DEPLOYPATH/api"
